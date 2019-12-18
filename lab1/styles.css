@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body *{
+    font-family: sans-serif;
+}
+
+header {
+    display: block;
+    max-width: 100%;
+    background-color: #929292;
+    height: 150px;
+}
+
+header p {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    max-width: 1170px;
+    align-items: center;
+    font-size: 32pt;
+}
+
+.folder {
+    max-width: 100%;
+    background-color: #FFCCAA;
+    height: 550px;
+}
+
+.folder p {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 250px;
+    max-width: 1170px;
+    align-items: center;
+    font-size: 32pt;
+}
+
+.container {
+    background-color: #FFAAAA;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1170px;
+}
+
+.container p {
+    text-align: center;
+    font-size: 32pt;
+    padding: 20px;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+.photo-type-medium-dark-grey {
+    height: 225px;
+    width: 515px;
+    background-color: #808080;
+}
+
+.photo-type-medium-dark-grey p {
+    padding-left: 20px;
+    padding-top: 100px;
+    font-size: 24pt;
+}
+
+.portfolio-photos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    max-width: 1600px;
+    background-color: #808080;
+    padding: 15px;
+}
+
+.photo-type-medium-purple {
+    height: 350px;
+    width: 360px;
+    background-color: purple;
+}
+
+.photo-type-medium-purple p {
+    padding-left: 20px;
+    padding-top: 150px;
+    font-size: 22pt;
+}
+
+.block-text {
+    height: 300px;
+    max-width: 100%;
+    background-color: #FFB380;
+}
+
+.block-text p {
+    text-align: center;
+    font-size: 24pt;
+}
+
+footer {
+    max-width: 100%;
+    background-color: #454545;
+    height: 400px;
+    display: flex;
+    font-size: 32pt;
+    color: white;
+}
+
+footer p {
+    margin: auto;
+}
+
+.pink{
+    background-color: deeppink;
+}
