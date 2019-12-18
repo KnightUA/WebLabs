@@ -1,0 +1,50 @@
+div.container {
+    position: fixed;
+    background-color: #222;
+    user-select: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    height: 400px;
+    border: 1px solid;
+    margin: auto;
+    overflow: hidden;
+}
+
+div.view {
+    width: 260px;
+    height: 20px;
+    border: 1px solid;
+    margin: 20px auto;
+    line-height: 20px;
+    text-align: right;
+    padding: 10px;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+table.keyboard {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+tr.keyboard-row{
+    height: 75px;
+}
+
+td.keyboard-key {
+    width: 30px;
+    background-color: #333;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+td.soft {
+    background-color: #334;
+}
