@@ -275,3 +275,130 @@ div.work:hover div.name p{
 
 /*CONTENT END */
 
+footer{
+    height: 450px;
+    background-color: #303030;
+}
+
+footer hr{
+    height: 2px;
+    background-color: black;
+}
+
+div.bottom-site-info{
+    height: 390px;
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.bottom-site-info div.info{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 225px;
+}
+
+div.bottom-site-info div.info h3{
+    color: white;
+    font-size: 14pt;
+    font-weight: normal;
+    margin-bottom: 16px;
+}
+
+div.info div.text, div.info div.text p span, div.info div.text p.button{
+    color: #76c38f;
+}
+
+div.info div.text{
+    width: 225px;
+}
+
+div.info div.text h4 {
+    padding-top: 8px;
+}
+
+div.info div.text p{
+    margin-top: 8px;
+}
+
+nav#bottom-menu ul{
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+nav#bottom-menu li{
+    padding:8px 0;
+    border-bottom: 1px #404040 solid;
+}
+
+nav#bottom-menu li:before{
+    content: "»";
+    color: #979797;
+    margin-right: 10px;
+}
+
+nav#bottom-menu li a{
+    color: #76c38f;
+    text-decoration: none;
+}
+
+div.info p.text {
+    color: #979797;
+    margin-bottom: 16px;
+}
+
+div.info p.text span{
+    color: #76c38f;
+}
+
+.bottom-input{
+    font-family: serif;
+}
+
+input[type=text].bottom-input, textarea.bottom-input{
+    margin-bottom: 8px;
+    height: 35px;
+    color: #979797;
+    padding-left: 16px;
+    background-color: #222222;
+    border-radius: 8px;
+    border-style: none;
+}
+
+textarea.bottom-input{
+    padding-top: 16px;
+    height: 80px;
+    resize: none;
+}
+
+input[type=submit].bottom-input{
+    margin-bottom: 8px;
+    height: 35px;
+    width: 75px;
+    color: #303030;
+    background-color: #76c38f;
+    border-radius: 8px;
+    border-style: none;
+    cursor: pointer;
+}
+
+
+div.bottom {
+    background-color: #2b2b2b;
+}
+
+div.developer-info{
+    height: 60px;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #979797;
+}
